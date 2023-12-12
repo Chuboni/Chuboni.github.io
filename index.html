@@ -6,7 +6,7 @@
     <title>Registro de Asistencia</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
+<body style="display: flex; flex-direction: column; min-height: 100vh;">
     <header>
         <h1>Registro de Asistencia</h1>
         <p>¡Descarga la aplicación para registrar la asistencia!</p>
@@ -14,9 +14,6 @@
 
     <main>
         <p>Registra la asistencia con la aplicación con tan solo escanear un QR</p>
-
-
-
         <h2>Descargar Aplicación</h2>
         <p>Haz clic en el botón de abajo para descargar la aplicación:</p>
         <a href="apk/app-debug.apk" id="downloadButton">
@@ -25,9 +22,11 @@
         <p class="device-message" id="deviceMessage"></p>
     </main>
 
-    <footer>
-        <p>&copy; Registro de asistencia 2023, hecho por Jorge Bernal & Fabián Urrutia</p>
-    </footer>
+    <footer-container style="margin-top: auto;">
+        <footer style="border-top: 5px solid #ff0000de; border-bottom: 5px solid #ff0000de;">
+            <p>&copy; Registro de asistencia 2023, hecho por Jorge Bernal & Fabián Urrutia</p>
+        </footer>
+    </footer-container>
 
     <script src="logic.js"></script>
 </body>
