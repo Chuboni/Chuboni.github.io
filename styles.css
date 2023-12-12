@@ -78,6 +78,24 @@ button:hover {
     background-color: #ff0000de;
 }
 
+#downloadButton {
+    display: none;
+}
+
+#codigoQr {
+    display: inline-block;
+}
+
+@media screen and (max-width: 767px) {
+    #boton {
+        display: inline-block;
+    }
+
+    #codigoQr {
+        display: none;
+    }
+}
+
 
 
 
