@@ -87,7 +87,7 @@ button:hover {
 }
 
 @media screen and (max-width: 767px) {
-    #boton {
+    #downloadButton {
         display: inline-block;
     }
 
